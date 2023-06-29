@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivani fitness</title>
+</head>
+<link rel="stylesheet" href="CSS/style.css">
+<style>
+    /* css reset */
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('image/bg.jpg.jpg');
+       font-size: 79px;
+       font-family: 'Rubik', sans-serif;
+      font-family: 'Ubuntu', sans-serif;
+
+    }
+
+    .left {
+        display: block;
+        position: absolute;
+        left: 58px;
+        top: 64px;
+        /* border: 2px solid red; */
+        text-align: center;
+        font-size: 51px;
+    }
+
+    .mid {
+        display: block;
+        margin: 22px auto;
+        /* border: 2px solid rgb(245 98 12); */
+        width: 36%;
+    }
+
+    .right {
+        position: absolute;
+        right: 35px;
+        top: 21px;
+        display: inline-block;
+        /* border: 2px solid rgb(204, 230, 87); */
+       
+
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+    }
+    .navbar li a{
+        text-decoration: none;
+        padding: 25px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+     color:lightblue;
+    
+    }
+    .btn{
+      
+        width: 302px;
+        /* border: 2px solid black; */
+        margin: 37px auto;
+        padding: 5% 30px;
+        border-radius: 18px;
+        background-color: rgb(219 221 197);
+        font-size: 42px;
+    }
+    .btn:hover{
+        background-color: rgb(141, 119, 141)
+    }
+    .left img{
+        height: 148%;
+    width: 302px;
+    }
+    .container{
+        width: 26%;
+       
+        /* border: 2px solid red; */
+        margin: 405px 205px;
+        padding: 0% 90px;
+        
+    }
+    .container text{
+        width: 302px;
+        border: 2px solid black;
+        margin: 37px auto;
+        padding: 5% 30px;
+        border-radius: 18px;
+        background-color: rgb(219 221 197);
+        font-size: 42px;
+    }
+    .container h3{
+        text-align: center;
+    }
+   .text input{
+    width: 99%;
+    font-size: 77px;
+    text-align: left;
+    margin: 1%;
+   }
+  .container button{
+    display: block;
+    width: 99%;
+    font-size:77px;
+    margin: 1%;
+    padding: 1%;
+  }
+
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+<img src="image/gym.png.jpg" alt="">
+<div>shivani fitness</div></div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            
+                <ul class="navbar">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#"> Fitness calculator</a></li>
+                    <li><a href="#"> Contact us</a></li>
+                </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+  <button class="btn">Call us Now</button>
+  <button class="btn">Gmail Now</button>
+</div>        
+    </header>
+    <div class="container">
+        <h3>Join the best Gym of indore</h3>
+        <form action="backend.php" class="formgroup">
+           <div class="text">
+            <input type="text" placeholder="Enter Your Name">
+           </div>
+           <div class="text">
+            <input type="text" placeholder="age">
+           </div>
+           <div class="text">
+            <input type="text" placeholder="gender">
+           </div>
+           <div class="text">
+            <input type="text" placeholder="city">
+           </div>
+          <button class="btn">sumbit</button>
+        </form>
+    </div>
+</body>
+
+</html>
